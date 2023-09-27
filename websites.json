@@ -1,0 +1,53 @@
+[
+    {
+        "name": "nintendo EUA",
+        "url": "https://www.nintendo.com/store/games/#p=1&sort=df&f=topLevelFilters&topLevelFilters=Deals",
+        "scriptName": "nintendoEua",
+        "selectors" : {
+            "trendlistTag": ".BasicTilestyles__Container-sc-1bsju6x-0"
+            
+        } 
+    },
+    {
+        "name": "nintendo ARG",
+        "url": "https://www.nintendo.com/es-ar/store/games/#p=1&sort=df&f=topLevelFilters&topLevelFilters=Ofertas",
+        "scriptName": "nintendoArg",
+        "selectors" : {
+            "trendlistTag": ".BasicTilestyles__Container-sc-1bsju6x-0"
+        } 
+    },
+    {
+        "name": "nintendo COL",
+        "url": "https://www.nintendo.com/es-co/store/games/#p=1&sort=df&f=topLevelFilters&topLevelFilters=Ofertas",
+        "scriptName": "nintendoCol",
+        "selectors" : {
+            "trendlistTag": ".BasicTilestyles__Info-sc-1bsju6x-6"
+        } 
+    },
+    
+    
+    {
+        "name": "moneda EUA",
+        "url": "https://www.google.com/finance/quote/USD-MXN?sa=X&ved=2ahUKEwj7697Yq_KAAxUGlGoFHSi3Cp0QmY0JegQIBhAr",
+        "scriptName": "monedaEua",
+        "selectors": {
+            "trendlistTag":".fxKbKc"
+        }
+    },
+    {
+        "name": "moneda COL",
+        "url": "https://www.google.com/finance/quote/COP-MXN?sa=X&ved=2ahUKEwj7697Yq_KAAxUGlGoFHSi3Cp0QmY0JegQIBhAr",
+        "scriptName": "monedaCol",
+        "selectors": {
+            "trendlistTag":".fxKbKc"
+        }
+    },
+    {
+        "name": "moneda ARG",
+        "url": "https://www.google.com/finance/quote/ARS-MXN?sa=X&ved=2ahUKEwj7697Yq_KAAxUGlGoFHSi3Cp0QmY0JegQIBhAr",
+        "scriptName": "monedaArg",
+        "selectors": {
+            "trendlistTag":".fxKbKc"
+        }
+    }
+]

@@ -1,0 +1,8 @@
+let res = document.querySelector('#res');
+                    res.innerHTML = `
+                    <p id="descuento"><span id="valorDescuento"></span></p>
+                    `;
+
+
+-------------------------------------------------------------------------------------
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flexboxgrid.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="background-container">
+        <div class="hero-container"></div>
+    </div>
+
+
+    <div class="row around-xs grid-search">
+
+        <div class="col-xs-12 col-lg-8">
+            <form class="search" action="https://eshop-prices.com/games?currency=MXN" method="GET">
+                <label class="label-search">
+                    <input class="input-search" placeholder="Buscar en todos los juegos..." name="q" value="">
+                    <button type="submit" class="pointer" aria-label="Search">
+                        <object data="./mediaFile/search-svgrepo-com.svg" width="36" height="36"> </object>
+                    </button>
+                    <input type="hidden" name="currency" value="MXN">
+                </label>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <div class="row around-xs content">
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <div id="caja-tabla">
+                    <h3 class="titulo-sale">
+                        <img id="imgEua" src="./mediaFile/united-states.png" alt="">
+                        Sale EUA</h3>
+                       
+                    <div class="res" id="res">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <div id="caja-tabla">
+                    <h3 class="titulo-sale">
+                        <img id="imgEua" src="./mediaFile/argentina.png" alt="">
+                        SALE ARG</h3>
+                    <div class="res" id="resArg"></div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <div id="caja-tabla">
+                    <h3 class="titulo-sale">
+                        <img id="imgEua" src="./mediaFile/colombia.png" alt="">
+                        SALE Col</h3>
+                    <div class="res" id="resCol"></div>
+                </div>
+            </div>
+
+    </div>
+
+
+
+    <script src="ajax.js" defer></script>
+    <script src="ajaxArg.js"></script>
+    <script src="ajaxCol.js"></script>
+</body>
+
+</html>
